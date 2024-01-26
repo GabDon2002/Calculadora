@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculadora2</title>
+    <link rel="stylesheet" href="Style.css">
+         
+          <div id='container'>
+            <div class='calculadora'>
+              <h1 class="title">Calculadon</h1>
+                <input type='text' id='field' readonly value='0' />
+                
+                <table>
+                    <tr>
+                        <th><button class=" bt2" onclick='limpar(this)' id='limpar'>C</button></th>
+                        <th><button class=" bt2 seta" onclick='deletar(this)' id='deletar'>←</button></th>
+                        <th><button class=" bt2" onclick='Operador(this)' id='dividir'>/</button></th>
+                        <th><button class=" bt1" onclick='Operador(this)' id='multi'>*</button></th>
+
+                    </tr>
+                    <tr>
+                        <td><button class=" bt_numerico" onclick='inserir(this)' id='n8'>7</button></td>
+                        <td><button class=" bt_numerico" onclick='inserir(this)' id='n8'>8</button></td>
+                        <td><button class=" bt_numerico" onclick='inserir(this)' id='n9'>9</button></td>
+                        <td><button class=" bt1" onclick='Operador(this)' id='subtrair'>-</button></td>
+                        
+                    </tr>
+                    <tr>
+                        <td><button class=" bt_numerico" onclick='inserir(this)' id='n4'>4</button></td>
+                        <td><button class=" bt_numerico" onclick='inserir(this)' id='n5'>5</button></td>
+                        <td><button class=" bt_numerico" onclick='inserir(this)' id='n6'>6</button></td>
+                        <td><button class=" bt1" onclick='Operador(this)' id='somar'>+</button></td>
+
+                   </tr>
+                   <tr>
+                        <td><button class=" bt_numerico" onclick='inserir(this)' id='n1'>1</button></td>
+                        <td><button class=" bt_numerico" onclick='inserir(this)' id='n2'>2</button></td>
+                        <td><button class=" bt_numerico" onclick='inserir(this)' id='n3'>3</button></td>
+                        <td rowspan="2"><button class=" bt1" style="height: 120px; border-radius: 30px;" onclick='calcular()' id= 'resultado'>=</button></td>
+
+                   </tr>
+                   <tr>
+                        <td colspan="2"><button class=" bt0" onclick='inserir(this)' id='n0'>0</button></td>
+                        <td><button class=" bt_numerico" onclick='Decimal(this,true)' id='decimal'>.</button></td>
+
+                   </tr>
+
+                </table>
+           
+            </div>
+        
+          </div>
+
+    <h1 class="CR">Gabriel Dondoni&copy;</h1>
+
+</head>
+<body>
+
+    <script src="Script.js"></script>
+
+</body>
+</html>

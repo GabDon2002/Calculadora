@@ -1,0 +1,200 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'calculus';
+    src: url('../midias/Fonte/calculusregular.otf') format('opentype');
+}
+
+*
+ {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: calculus, Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: linear-gradient(45deg, rgb(0, 0, 0), #447267);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+:root {
+    font-size: 72.5%;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    text-align: center;
+}
+
+.title {
+    font-family: 'calculu';
+    font-size: 35px;
+}
+
+header {
+    width: 100%;
+    height: 5rem;
+    background: black;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin:  auto;
+    
+}
+
+.calculadora {
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.8);
+    box-shadow: 0px 0 8px rgb(117, 21, 18);
+    border-radius: 0.8rem;
+    padding: 1.5rem;   
+}
+
+.bt_numerico {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 5rem;
+    height: 5rem;
+    font-size: 45px;
+    font-family: 'calculu';
+    cursor: pointer;
+    background: #333333;
+    border: none;
+    border-radius: 50%;
+    color: #fff;
+    margin: 0.2rem;
+    transition: 0.2s;
+}
+
+.bt_numerico:hover {
+    background: black;
+}
+
+.bt0 {
+    width: 125px;
+    border-radius: 30px;
+    height: 5rem;
+    font-size: 50px;
+    font-family: 'calculu';
+    cursor: pointer;
+    background: #333333;
+    border: none;
+    color: #fff;
+
+}
+
+.bt0:hover {
+    background: black;
+}
+
+#multi {
+    font-size: 40px;
+    font-family: 'calculu';
+    line-height: 60px;
+}
+
+#subtrair {
+    font-size: 50px;
+    line-height: 5px;
+}
+
+#somar {
+    font-size: 35px;
+}
+
+#resultado {
+    font-size: 50px;
+}
+
+#decimal {
+    font-size: 50px;
+}
+
+#deletar {
+    font-family: 'calculu';
+    font-size: 33px;
+}
+
+#limpar {
+    letter-spacing: 1px;
+}
+
+.bt1 {
+    background: #c47704;
+    font-family: 'calculu';
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 5rem;
+    height: 5rem;
+    font-style: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    margin: .2rem;
+    transition: 0.2s;
+}
+
+.bt1:hover {
+    background: rgb(0, 0, 0);
+}
+
+.bt2 {
+    background: #6b6b6b;
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 5rem;
+    height: 5rem;
+    font-size: 44px;
+    font-style: bold;
+    font-family: 'calculu';
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    margin: .2rem;
+    transition: 0.2s;
+}
+
+.bt2:hover {
+    background: black;
+    
+}
+
+#field {
+    background: white;
+    width: 255px;
+    height: 45px;
+    margin: 11px 0px;
+    color: black;
+    text-align: right;
+    border-radius: 0.3rem;
+    font-family: 'calculus';
+    font-size: 50px;
+}
+
+.CR {background:rgb(0, 0, 0);
+    position: fixed;
+    font-family: 'calculus';
+    font-size: 32px;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    height: 40px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;   
+    bottom: 0px;
+}
