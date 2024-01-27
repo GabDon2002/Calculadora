@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @font-face {
     font-family: 'calculus';
-    src: url('../midias/Fonte/calculusregular.otf') format('opentype');
+    src: url('/fonte/calculusregular.otf') format('opentype');
 }
 
 *
@@ -32,7 +32,7 @@ body {
 }
 
 .title {
-    font-family: 'calculu';
+    font-family: 'calculus';
     font-size: 35px;
 }
 
@@ -66,7 +66,7 @@ header {
     width: 5rem;
     height: 5rem;
     font-size: 45px;
-    font-family: 'calculu';
+    font-family: 'calculus';
     cursor: pointer;
     background: #333333;
     border: none;
@@ -85,7 +85,7 @@ header {
     border-radius: 30px;
     height: 5rem;
     font-size: 50px;
-    font-family: 'calculu';
+    font-family: 'calculus';
     cursor: pointer;
     background: #333333;
     border: none;
@@ -99,7 +99,7 @@ header {
 
 #multi {
     font-size: 40px;
-    font-family: 'calculu';
+    font-family: 'calculus';
     line-height: 60px;
 }
 
@@ -121,7 +121,7 @@ header {
 }
 
 #deletar {
-    font-family: 'calculu';
+    font-family: 'calculus';
     font-size: 33px;
 }
 
@@ -131,7 +131,7 @@ header {
 
 .bt1 {
     background: #c47704;
-    font-family: 'calculu';
+    font-family: 'calculus';
     color: white;
     text-align: center;
     align-items: center;
@@ -160,7 +160,7 @@ header {
     height: 5rem;
     font-size: 44px;
     font-style: bold;
-    font-family: 'calculu';
+    font-family: 'calculus';
     cursor: pointer;
     border: none;
     border-radius: 50%;

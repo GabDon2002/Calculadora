@@ -4,7 +4,8 @@ Esta é uma calculadora simples desenvolvida com HTML, CSS e JavaScript. A calcu
 
 ## Pré-requisitos
 
-Certifique-se de ter um navegador web moderno para visualizar e interagir com a calculadora.
+- Certifique-se de ter um navegador web moderno para visualizar e interagir com a calculadora.
+- Instalar a fonte Calculus
 
 ## Como usar
 
