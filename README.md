@@ -28,13 +28,3 @@ Esta é uma calculadora simples desenvolvida com HTML, CSS e JavaScript. A calcu
 ## Contribuição
 
 Contribuições são bem-vindas! Sinta-se à vontade para reportar problemas, sugerir melhorias ou enviar pull requests.
-
-1. Fork o projeto.
-2. Crie uma branch para sua modificação: `git checkout -b feature/nova-feature`.
-3. Faça suas alterações e commit: `git commit -m 'Adiciona nova feature'`.
-4. Envie para a branch original: `git push origin feature/nova-feature`.
-5. Abra um pull request.
-
-## Licença
-
-Este projeto é licenciado sob a [Licença MIT](LICENSE.md) - veja o arquivo LICENSE.md para mais detalhes.
