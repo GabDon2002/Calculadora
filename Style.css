@@ -1,11 +1,11 @@
 @charset "UTF-8";
+
 @font-face {
     font-family: 'calculus';
     src: url('/fonte/calculusregular.otf') format('opentype');
 }
 
-*
- {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -44,8 +44,8 @@ header {
     align-items: center;
     display: flex;
     justify-content: center;
-    margin:  auto;
-    
+    margin: auto;
+
 }
 
 .calculadora {
@@ -56,7 +56,7 @@ header {
     background: rgba(0, 0, 0, 0.8);
     box-shadow: 0px 0 8px rgb(117, 21, 18);
     border-radius: 0.8rem;
-    padding: 1.5rem;   
+    padding: 1.5rem;
 }
 
 .bt_numerico {
@@ -98,9 +98,9 @@ header {
 }
 
 #multi {
-    font-size: 40px;
-    font-family: 'calculus';
-    line-height: 60px;
+    font-size: 45px;
+    font-family: 'Arial';
+    line-height: 75px;
 }
 
 #subtrair {
@@ -170,7 +170,7 @@ header {
 
 .bt2:hover {
     background: black;
-    
+
 }
 
 #field {
@@ -185,7 +185,8 @@ header {
     font-size: 50px;
 }
 
-.CR {background:rgb(0, 0, 0);
+.CR {
+    background: rgb(0, 0, 0);
     position: fixed;
     font-family: 'calculus';
     font-size: 32px;
@@ -195,6 +196,6 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    text-align: center;   
+    text-align: center;
     bottom: 0px;
 }
